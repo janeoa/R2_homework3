@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2932212426" file="/Volumes/Clouds/odrive/OneDrive/archive/2020 Fall/Robotics II/HW3/app1.prj" location="/Volumes/Clouds/odrive/OneDrive/archive/2020 Fall/Robotics II/HW3" name="app1" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2681720559" file="/Volumes/Clouds/odrive/OneDrive/archive/2020 Fall/Robotics II/HW3/app1.prj" location="/Volumes/Clouds/odrive/OneDrive/archive/2020 Fall/Robotics II/HW3" name="app1" target="target.mlapps" target-name="Package App">
     <param.appname>app1</param.appname>
     <param.authnamewatermark />
     <param.email />
@@ -8,13 +8,13 @@
     <param.icons />
     <param.summary />
     <param.description />
-    <param.screenshot>/private/var/folders/7c/l8tj6ftd50d75p03g8q0trfh0000gn/T/tpc4e605db_695e_49ba_9f37_fabe4439403a.png</param.screenshot>
+    <param.screenshot>/private/var/folders/7c/l8tj6ftd50d75p03g8q0trfh0000gn/T/tp0287fbe1_d118_48be_95f5_d45c98c381f9.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
     <param.platforms />
-    <param.output>${PROJECT_ROOT}</param.output>
+    <param.output>/Users/assetmalik/Downloads/exportedHW3</param.output>
     <param.guid>c96b4c7f-58cd-4dea-b30d-d69ceb8411ef</param.guid>
     <unset>
       <param.authnamewatermark />
@@ -29,21 +29,26 @@
       <param.products.id />
       <param.products.version />
       <param.platforms />
-      <param.output />
     </unset>
     <fileset.main>
       <file>${PROJECT_ROOT}/app1.mlapp</file>
     </fileset.main>
     <fileset.depfun>
-      <file>${PROJECT_ROOT}/drawCircle.mlx</file>
-      <file>${PROJECT_ROOT}/drawSq.mlx</file>
-      <file>${PROJECT_ROOT}/putObstacle.mlx</file>
-      <file>${PROJECT_ROOT}/putRobot.mlx</file>
+      <file>${PROJECT_ROOT}/checkCollisionSensor.m</file>
+      <file>${PROJECT_ROOT}/helper/DK.mlx</file>
+      <file>${PROJECT_ROOT}/helper/checkBorders.m</file>
+      <file>${PROJECT_ROOT}/helper/checkCollision.m</file>
+      <file>${PROJECT_ROOT}/helper/drawCircle.mlx</file>
+      <file>${PROJECT_ROOT}/helper/drawGrad.mlx</file>
+      <file>${PROJECT_ROOT}/helper/drawSq.mlx</file>
+      <file>${PROJECT_ROOT}/helper/putObstacle.mlx</file>
+      <file>${PROJECT_ROOT}/helper/putRobot.mlx</file>
+      <file>${PROJECT_ROOT}/map.png</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="/Volumes/Clouds/odrive/OneDrive/archive/2020 Fall/Robotics II" name="HW3" optional="false">/Volumes/Clouds/odrive/OneDrive/archive/2020 Fall/Robotics II/HW3</file>
+      <file location="/Users/assetmalik/Downloads" name="exportedHW3" optional="false">/Users/assetmalik/Downloads/exportedHW3</file>
     </build-deliverables>
     <workflow />
     <matlab>
@@ -66,7 +71,7 @@
       <vista>false</vista>
       <linux>false</linux>
       <solaris>false</solaris>
-      <osver>10.15.7</osver>
+      <osver>10.16</osver>
       <os32>false</os32>
       <os64>true</os64>
       <arch>maci64</arch>
