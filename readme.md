@@ -10,6 +10,6 @@ Both task1 and task2 are in the same app. After using task1 just flip the switch
 
 ## Examples
 ### task 1
-![task1](/task1.gif)
+![task1](/gifs/task1.gif)
 ### task 2
-![task2](/task2.gif)
+![task2](/gifs/task2.gif)
